@@ -1,0 +1,7 @@
+.marketcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(92, 63, 63);
+}

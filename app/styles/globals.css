@@ -14,3 +14,28 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(210, 228, 236);
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(133, 112, 112);
+}
+
+h3{
+  width: 100%;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+}

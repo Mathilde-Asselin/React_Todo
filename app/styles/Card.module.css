@@ -1,0 +1,13 @@
+.cardcontainer{
+    width: 200px;
+    border: antiquewhite;
+    border-style: groove;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.cardcontainer title{
+    text-align: center;
+}

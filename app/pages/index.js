@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Marketplace from '../components/Marketplace'
 import styles from '../styles/App.module.css'
 
 export default function Home() {
@@ -11,8 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main className={styles.container}>
         <Navbar/>
+
+        <Marketplace/>
       </main>
 
     </div>
